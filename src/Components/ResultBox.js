@@ -5,36 +5,22 @@ class ResultBox extends Component {
   render() {
     return (
       <div className="ResultBox">
-        <h3>Experiences </h3>
+        <h3>Experiences</h3>
         <div className='container'>
-          <div className='row'>
-            <div className="col">
-              <ResultSingle />
-            </div>
-            <div className="col">
-              <ResultSingle />
-            </div>
-            <div className="col">
-              <ResultSingle />
-            </div>
-            <div className="col">
-              <ResultSingle />
-            </div>
-            <div className="col">
-              <ResultSingle />
-            </div>
-            <div className="col">
-              <ResultSingle />
-            </div>
-            <div className="col">
-              <ResultSingle />
-            </div>
-            <div className="col">
-              <ResultSingle />
-            </div>
+          <div className='rowResult'>
+              <ResultSingle image={this.props.image} tags={this.props.tags} country={this.props.country} />
+              <ResultSingle image={this.props.image} tags={this.props.tags} country={this.props.country} />
+              <ResultSingle image={this.props.image} tags={this.props.tags} country={this.props.country} />
+              <ResultSingle image={this.props.image} tags={this.props.tags} country={this.props.country} />
           </div>
+          <div className='rowResult'>
+              <ResultSingle image={this.props.image} tags={this.props.tags} country={this.props.country} />
+              <ResultSingle image={this.props.image} tags={this.props.tags} country={this.props.country} />
+              <ResultSingle image={this.props.image} tags={this.props.tags} country={this.props.country} />
+              <ResultSingle image={this.props.image} tags={this.props.tags} country={this.props.country} />
           </div>
         </div>
+      </div>
     );
   }
 }

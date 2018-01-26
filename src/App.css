@@ -1,24 +1,75 @@
 /*ours*/
 
 body {
-  margin: 5%;
+  font-family: 'Francois One', sans-serif;
+  color: grey;
 }
+
+h2 {
+    font-size: 1.75rem;
+    position: 90px;
+    text-align: left;
+    padding-left: 7px;
+    margin: 0 0 0 -5%;
+} 
 
 h3 {
     font-size: 1.75rem;
     position: 90px;
     text-align: left;
     padding-left: 7px;
+    margin: 6% 0 2% -5%;
 } 
+
+h4 {
+  overflow: hidden;
+  height: 30px;
+}
+
+h5 {
+  color: steelblue;
+}
+
+span {
+  margin: 5%;
+  font-size: 20px;
+}
+
+.navbar {
+  height: 100px;
+}
 
 .nav-item {
   padding: 20px;
   margin: 20px;
 }
 
+.navbar-brand {
+  width: 4%;
+}
+
+.col {
+  margin: 0 4% 0 -10%;
+  border: 3px solid black;
+}
+
+.col-3 {
+  border: 1px solid grey;
+  height: 100px;
+  margin: 2%;
+  padding: 0;
+  text-align: left;
+}
+
+.justify-content-start {
+    margin: -1% 0 0 -8%;
+}
+
 .explore-image {
-  max-height: 96px;
-  max-width: 72px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 40%;
 }
 
 .explore-category {
@@ -37,8 +88,19 @@ h3 {
 
 .experience-image {
   height: 205px;
-  width: 308px;
-  border: 2px solid black;
+  width: 290px;
+  margin: 0 -20% 0 -20%;
+}
+
+.experience-text {
+  text-align: left;
+  margin: 1%;
+}
+
+.body-container {
+  position: absolute;
+  margin: 10% 5%;
+  width: 90%;
 }
 
 /*default*/
@@ -47,12 +109,31 @@ h3 {
 }
 
 .ResultSingle {
-  border: 3px solid black;
-  
+  margin: 0 1% 0 0%;
+  width: 300px;
+  display: inline-block;  
 }
 
-/*{ margin-top: 20px;
-    border: 3px solid black;
-    display: grid;
+.rowResult {
+  margin: 0 -10% 0 -10%;
+}
 
-}*/
+.fivestar {
+  width: 100px;
+}
+
+.Navbar {
+  border-bottom: 1px solid grey;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.loading {
+  width: 55%;
+}
+
+.loading-container {
+  text-align: center;
+}
